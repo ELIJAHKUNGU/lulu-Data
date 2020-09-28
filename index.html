@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Lulu Data</title>
+    <style>
+     
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lulu Data</h1>
+        <div class="mt-5">
+              
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn" class="modal-btn">Add New</button>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div>
+            <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                <input type="number" name="id" id="id" placeholder="ID No" class="form-group-lg form-control" required>
+
+                <input type="text" name="name" id="name" placeholder="The First Name" class="form-group-lg form-control mt-4" required>
+                <input type="number" name="phone" id="phone" placeholder="Phone Number" class="form-group-lg form-control mt-4" required>
+
+
+                <div class="button">
+                    
+                   <button type="submit" value="Submit" class="bg-warning">Submit</button>
+                   <button type="button" class="bg-secondary" onclick="display(this)">Close</button>
+
+                </div>
+            </form>
+        </div>
+      </div>
+    
+    </div>
+            <table class="list" id="employeeList">
+                <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Phone Number</th>
+                  <th>Delete</th>
+                  <th>Edit</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                
+                </tbody>
+              </table>
+              </div>
+    </div>
+   
+  
+   
+    
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

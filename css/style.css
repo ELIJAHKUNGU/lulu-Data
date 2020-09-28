@@ -1,0 +1,75 @@
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+        
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+ 
+  }
+ .modal-btn{
+      padding:0px;
+      height: 40px;
+      margin-bottom: 40px;
+      margin-left: 60rem;
+  }
+ input{
+     border: 2px solid #000000;
+ }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+  
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    float: right;
+    margin-left: 73rem;
+    margin-bottom: 30px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  button{
+      float: right;
+      width: 100px;
+      height: 30px;
+      margin: 2rem 20px;
+     
+  }
+
+  
