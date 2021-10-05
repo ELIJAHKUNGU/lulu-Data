@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>LULU CREDIT</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <h2>LULU Technology Limited</h2>
+
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Safaricom</a></li>
+            <li><a data-toggle="tab" href="#menu1">Airtel</a></li>
+            <li><a data-toggle="tab" href="#menu2">Telkom</a></li>
+            <li><a data-toggle="tab" href="#menu3">Wallet</a></li>
+
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h3>Safaricom</h3>
+                <div class="container">
+                    <div class="row ">
+                        <div class="">
+                            <div class="form-group">
+                                <form name="add_name" id="add_name">
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="Enter Email Address">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="[First Name][Last Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="ALTERNATE PHONE NUMBER">
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered" id="dynamic_field">
+                                            <tr>
+                                                <td><input type="text" name="name[]" placeholder="Phone Number" class="form-control name_list" /></td>
+                                                <td><input type="text" name="amount[]" placeholder="Amount" class="form-control name_list" /></td>
+                                                <td><button type="button" name="add" id="add" class="btn btn-success">Add More</button></td>
+                                            </tr>
+
+                                        </table>
+                                        <input type="button" name="submit" id="submit" class="btn btn-info" value="Submit" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>Airtel</h3>
+                <div class="container">
+                    <div class="row ">
+                        <div class="">
+                            <div class="form-group">
+                                <form name="add_name" id="add_name">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered" id="dynamic_field">
+                                            <tr>
+                                                <td><input type="text" name="name[]" placeholder="Phone Number" class="form-control name_list" /></td>
+                                                <td><input type="text" name="amount[]" placeholder="Amount" class="form-control name_list" /></td>
+                                                <td><button type="button" name="add" id="add" class="btn btn-success">Add More</button></td>
+                                            </tr>
+
+                                        </table>
+                                        <input type="button" name="submit" id="submit" class="btn btn-info" value="Submit" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h3>Telkom</h3>
+                <div class="container">
+                    <div class="row ">
+                        <div class="">
+                            <div class="form-group">
+                                <form name="add_name" id="add_name">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered" id="dynamic_field">
+                                            <tr>
+                                                <td><input type="text" name="name[]" placeholder="Phone Number" class="form-control name_list" /></td>
+                                                <td><input type="text" name="amount[]" placeholder="Amount" class="form-control name_list" /></td>
+                                                <td><button type="button" name="add" id="add" class="btn btn-success">Add More</button></td>
+                                            </tr>
+
+                                        </table>
+                                        <input type="button" name="submit" id="submit" class="btn btn-info" value="Submit" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <h3>Wallet</h3>
+                <div class="container">
+                    <div class="row ">
+                        <div class="">
+                            <div class="form-group">
+                                <form name="add_name" id="add_name">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered" id="dynamic_field">
+                                            <tr>
+                                                <td><input type="text" name="name[]" placeholder="Phone Number" class="form-control name_list" /></td>
+                                                <td><input type="text" name="amount[]" placeholder="Amount" class="form-control name_list" /></td>
+                                                <td><button type="button" name="add" id="add" class="btn btn-success">Add More</button></td>
+                                            </tr>
+
+                                        </table>
+                                        <input type="button" name="submit" id="submit" class="btn btn-info" value="Submit" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<!-- <script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/bootstrap.min.js"></script> -->
+<script>
+    $(document).ready(function() {
+        var i = 1;
+        $('#add').click(function() {
+            i++;
+            $('#dynamic_field').append('<tr id="row' + i + '"><td><input type="text" name="name[]" placeholder="Enter your Name" class="form-control name_list" /></td><td><input type="text" name="name[]" placeholder="Enter your Name" class="form-control name_list" /></td><td><button type="button" name="remove" id="' + i + '" class="btn btn-danger btn_remove">X</button></td></tr>');
+        });
+
+        $(document).on('click', '.btn_remove', function() {
+            var button_id = $(this).attr("id");
+            $('#row' + button_id + '').remove();
+        });
+
+        $('#submit').click(function() {
+            $.ajax({
+                url: "name.php",
+                method: "POST",
+                data: $('#add_name').serialize(),
+                success: function(data) {
+                    alert(data);
+                    $('#add_name')[0].reset();
+                }
+            });
+        });
+
+    });
+</script>
+
+
+</html>
