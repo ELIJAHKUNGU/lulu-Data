@@ -36,7 +36,7 @@
 }
 
 .image-side {
-    background-image: url(../assets/backgroundnew2-removebg-preview.png);
+    background-image: url(../assets/backgroundnew2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,8 +48,9 @@
     color: #fff;
 }
 
-@media screen and (max-width: 600px) {
+
+/* @media screen and (max-width: 600px) {
     .image-side {
         background-image: none;
     }
-}
+} */

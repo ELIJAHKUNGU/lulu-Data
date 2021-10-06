@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <!--  <link rel="stylesheet" href="./css/all.min.css"> -->
+    <!--  <link rel="stylesheet" href="./css/all.min.css"> -->
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -43,30 +43,23 @@
                                         <div class="">
                                             <div class="">
                                                 <div class="form-group">
-                                                    <form name="add_name" id="add_name">
+                                                    <form name="add_name" action="http://lulusms.com/api/bt.php" method="get" id="add_name">
                                                         <div class="form-group">
                                                             <input type="email" name="email" class="form-control" placeholder="Enter Email Address">
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="email" name="email" class="form-control" placeholder="[First Name][Last Name">
+                                                            <input type="text" name="user_name" class="form-control" placeholder="[First Name][Last Name">
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="email" name="email" class="form-control" placeholder="ALTERNATE PHONE NUMBER">
+                                                            <input type="number" required name="MobileNumber" class="form-control" placeholder="ALTERNATE PHONE NUMBER">
                                                         </div>
                                                         <ul class="nav select-mutiple-tab nav-tabs">
                                                             <li class="active"><a data-toggle="tab" href="#menu4">Single Number Top-up</a></li>
                                                             <li><a data-toggle="tab" href="#menu5">Multiple Number Top-up</a></li>
                                                         </ul>
-                                                        <div id="menu4" class="tab-pane fade in active">
-
-                                                            <div class="table-responsive">
-
-
-                                                            </div>
-                                                        </div>
+                                                        <div id="menu4" class="tab-pane fade in active"></div>
 
                                                         <div id="menu5" class="tab-pane fade">
-
                                                             <div class="table-responsive">
                                                                 <table class="table table-bordered" id="dynamic_field">
                                                                     <tr>
@@ -74,16 +67,15 @@
                                                                         <td><input type="text" name="amount[]" placeholder="Amount" class="form-control name_list" /></td>
                                                                         <td><button type="button" name="add" id="add" class="btn btn-success">Add More</button></td>
                                                                     </tr>
-
                                                                 </table>
 
                                                             </div>
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="email" name="email" class="form-control" placeholder="Phone Number Top up (E.G 0722xxxxxxx)">
+                                                            <input type="number" name="MpesaSourceNumber" class="form-control" required placeholder="Phone Number Top up (E.G 0722xxxxxxx)">
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="email" name="email" class="form-control" placeholder="AIRTIME VALUE (KSH 5 - 5000)">
+                                                            <input type="number" min="5" max="5000" name="Amount" required class="form-control" placeholder="AIRTIME VALUE (KSH 5 - 5000)">
                                                         </div>
                                                         <p>Minimum amount allowed is Kshs 5</p>
                                                         <div class="form-group">
@@ -293,7 +285,6 @@
                 <div class="col-sm-6 ml-5 image-side">
                     <div class="mt-5 pt-5">
                         <img src="./assets/blubnew.png" class="img-fluid" alt="" srcset="">
-
                     </div>
 
                 </div>
