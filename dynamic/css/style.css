@@ -47,3 +47,9 @@
     background-color: red;
     color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+    .image-side {
+        background-image: none;
+    }
+}
