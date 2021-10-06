@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LULU SMS CREDIT</title>
+</head>
+
+<body>
+    <div class="container">
+        <a href="./index.html" style="text-decoration:none; color:white;"><button class="btn btn-lg mt-5 btn-danger">  Back</button></a>
+        <h1 class="text-center">Top up Lulu Wallet</h1>
+
+        <div class="mt-5 d-flex justify-content-center justify-content-lg-between">
+            <i class="fas fa-comments-dollar"></i>
+            <h5>TOP UP BALANCE </h5>
+
+        </div>
+        <!-- /https://lulusms.com/api/stkpush.php?AccountNumber=elijah&MobileNumber=0743770216&PaybillNumber=616942&ChildPaybill=616952&Amount=1&Notes=Notes+-+Notes&TestBed=no&AccountNumber=elijah&MobileNumber=0743770216&PaybillNumber=616942&ChildPaybill=616952&Amount=1&Notes=Notes+-+Notes&TestBed=no -->
+        <form method="get" class="shadow mt-5 mb-5 p-5" action="https://lulusms.com/api/stkpush.php">
+            <div class="form-group flex-column d-flex justify">
+                <label for="">Mobile Phone Number</label>
+                <input type="text" name="MobileNumber" class="form-control" placeholder="Enter a PhoneNumber" required>
+            </div>
+            <div class="form-group flex-column d-flex justify">
+                <label for="">Amount</label>
+                <input type="number" name="Amount" class="form-control" min="0" required>
+            </div>
+            <input hidden type="text" name="PaybillNumber" value="616942">
+            <input hidden type="text" name="ChildPaybill" value="616952">
+            <input hidden type="text" name="AccountNumber" value="accno">
+            <input hidden type="text" name="Notes" value="Notes - Notes">
+            <input hidden type="text" name="TestBed" value="no">
+            <div class="form-group ">
+                <button type="submit" class="btn btn-danger">Top Up With M-PESA</button>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>
