@@ -3,3 +3,47 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.nav {
+    background-color: red;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.nav li {
+    border-radius: 20px;
+}
+
+.nav li a {
+    color: #fff;
+}
+
+.row .inputs-side {
+    max-width: 400px;
+}
+
+.col-sm-6 .form-control {
+    max-width: 400px;
+    height: 40px;
+}
+
+.col-sm-6 .select-mutiple-tab {
+    max-width: 400px;
+}
+
+.col-sm-6 #menu5 {
+    max-width: 400px;
+}
+
+.image-side {
+    background-image: url(../assets/backgroundnew2-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 400px;
+}
+
+.col-sm-6 .form-group button {
+    background-color: red;
+    color: #fff;
+}
