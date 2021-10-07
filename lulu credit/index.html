@@ -25,19 +25,19 @@
             </a>
 
         </div>
-        <form action="https://" class="shadow mt-5 mb-5 p-5">
+        <form action="http://lulusms.com/api/bt.php" method="get" class="shadow mt-5 mb-5 p-5">
             <div class="form-group flex-column d-flex justify-content-lg-center">
                 <label for="">Phone NO</label>
-                <input type="number" class="form-control" name="MobileNumber" placeholder="Enter  Phone No">
+                <input type="number" required name="MobileNumber" class="form-control" placeholder="Enter  Phone No">
             </div>
 
             <div class="form-group flex-column d-flex justify-content-lg-center">
                 <label for="">Customer Phone NO</label>
-                <input type="number" class="form-control" name="MobileNumber" placeholder="Enter Customer Phone No">
+                <input type="number" required name="MpesaSourceNumber" class="form-control" name="MobileNumber" placeholder="Enter Customer Phone No">
             </div>
             <div class="form-group flex-column d-flex justify-content-lg-center">
                 <label for="">Amount</label>
-                <input type="number" class="form-control" name="Amount" placeholder="Amout Ksh">
+                <input type="number" min="5" max="5000" class="form-control" name="Amount" placeholder="Amout Ksh">
             </div>
             <div class="form-group ">
                 <button type="submit" class="btn btn-danger">Submit</button>
